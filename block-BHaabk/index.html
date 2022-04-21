@@ -1,0 +1,66 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <body>
+        <header class="header">
+            <div class="logo-container">
+                <a class="logo" href="#">Logo
+                </a>
+            </div>
+            <div class="empty_div"></div>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">Generic</a>
+                <a href="#">Elements</a>
+            </nav>
+        </header>
+        <main>
+            <section class="section">
+                <div class="col-1">
+                    <h2>heading</h2>
+                    <p>S ome introductory textome introductory textome introductory textome introductory textome introductory textome introductory textome introductory textome introductory textome introductory textome introductory textome introductory textome introductory text</p>
+                </div>
+                <div class="col-2">
+                    <img src="pic01.jpg" alt="dog">
+                </div>
+            </section>
+
+            <section class="gallery">
+                <div class="row-1">
+                    <div class="col-1"><img src="pic01.jpg" alt="pic01"></div>
+                    <div class="col-2"><img src="pic01.jpg" alt="pic01"></div>
+                    <div class="col-3"><img src="pic01.jpg" alt="pic01"></div>
+                </div>
+                <div class="row-2">
+                    <div class="col-1"><img src="pic01.jpg" alt="pic01"></div>
+                    <div class="col-2"><img src="pic01.jpg" alt="pic01"></div>
+                    <div class="col-3"><img src="pic01.jpg" alt="pic01"></div>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+ </body>
+ </html>
